@@ -31,7 +31,6 @@ export default function App() {
         <form className="form" onSubmit={(e) => Submit(e)}>
           <input placeholder="Your Name" name="Name" type="text" />
           <input placeholder="Your Email" name="Email" type="text" />
-          <input placeholder="Your Message" name="Message" type="text" />
           <input name="Name" type="submit" />
         </form>
       </div>
