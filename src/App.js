@@ -54,7 +54,7 @@ export default function App() {
           style={{ width: '110%',height: '12px' ,}}
           placeholder="Your email"  name="Email" type="text" 
         />
-        <button   type="submit"
+        <button   type="submit" name = "submit"
         style={{ backgroundColor: 'yellow', borderRadius: '120px',padding: '12px 24px' }} >Submit</button>
       </form>
 
