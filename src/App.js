@@ -48,11 +48,11 @@ export default function App() {
       <form className="form" style={{ maxWidth: width < 768 ? '200%' : '200px' }} onSubmit={(e) => Submit(e)}>
       <input 
           style={{ width: '110%',height: '12px' }}
-          placeholder="Your name" 
+          placeholder="Your name"  name="Name" type="text"
         />
         <input
           style={{ width: '110%',height: '12px' ,}}
-          placeholder="Your email" 
+          placeholder="Your email"  name="Email" type="text" 
         />
         <button   type="submit"
         style={{ backgroundColor: 'yellow', borderRadius: '120px',padding: '12px 24px' }} >Submit</button>
