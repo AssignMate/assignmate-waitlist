@@ -3,8 +3,6 @@ import Header from "./components/header";
 import FeaturesSection from "./components/FeaturesSection";
 import SubscriptionForm from "./components/subscriptionForm";
 
-
-
 function App() {
   return (
     <div className="bg-[#00BBF9] flex flex-col items-center">
@@ -13,6 +11,7 @@ function App() {
       <SubscriptionForm />
     </div>
   );
+
 }
 
 export default App;
