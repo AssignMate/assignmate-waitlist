@@ -79,10 +79,10 @@
  
   
   function handleSubmit(e) {
-      const form = document.getElementById('myForm');
+      
       e.preventDefault();
 
-      
+      const form = document.getElementById('myForm');
       const formData = new FormData(form);
 
       fetch('https://script.google.com/macros/s/AKfycbxfi01kW0oJKzwoOlT8cft28Fl23Gm5tk4AnDodmehTv_QPt01Qiq7z5iwazEFOOZ1v3g/exec', {
